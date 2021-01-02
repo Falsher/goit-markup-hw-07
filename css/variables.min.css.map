@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../sass/utils/variables.scss"
-    ],
-    "names": [],
-    "file": "variables.min.css"
-}
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"file:///c:/Users/print/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/GitHomeW/goit-markup-hw-07/sass/utils/variables.css"}
