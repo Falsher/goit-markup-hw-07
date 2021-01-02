@@ -1,0 +1,49 @@
+
+/*we doing*/
+.doing {
+  padding-bottom: 94px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.img-link {
+  display: flex;
+}
+
+.img-link li>img {
+  display: block;
+}
+
+.img-item:nth-child(-n+2) {
+  margin-right: 30px;
+}
+
+.img-link li {
+  position: relative;
+}
+
+.first-img1 {
+  position: absolute;
+  bottom: 0;
+  width: 370px;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.first-img1 h3 {
+  padding: 27px 82px 27px 82px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--first-color);
+}

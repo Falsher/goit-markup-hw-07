@@ -47,7 +47,11 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.trailingComma": "all",
   "editor.semanticTokenColorCustomizations": null,
-  "editor.fontLigatures": null
+  "editor.fontLigatures": null,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.triggerExpansionOnTab": true
 
 
 
