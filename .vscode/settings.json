@@ -47,11 +47,23 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.trailingComma": "all",
   "editor.semanticTokenColorCustomizations": null,
-  "editor.fontLigatures": null
+  "editor.fontLigatures": null,
+
+
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		},
+		{
+			"format": "compressed",
+			"extensionName": ".min.css",
+			"savePath": "/css"
+		}
+	],
+	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+	"liveSassCompile.settings.generateMap": true,
+	"liveSassCompile.settings.autoprefix": null,
+	"liveServer.settings.port": 1235
 }
-"emmet.includeLanguages": {
-        "javascript": "javascript",
-        "html": "html",
-        "php": "html",
-        "blade": "html",
-    },

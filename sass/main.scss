@@ -1,16 +1,12 @@
-@import './general/variables';
+@import "./utils/variables.scss";
 
-@import './general/common';
-@import './general/container';
+@import "./general/common";
+@import "./general/container";
 
-@import './components/header';
-@import './components/hero';
-@import './components/features';
-@import './components/wedoing';
-@import './components/team_client';
-@import './components/portfolio';
-@import './components/footer';
-
-
-
-
+@import "./components/header";
+@import "./components/hero";
+@import "./components/features";
+@import "./components/wedoing";
+@import "./components/team_client";
+@import "./components/portfolio";
+@import "./components/footer";
