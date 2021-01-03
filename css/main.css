@@ -26,7 +26,8 @@ body {
   border: 0;
   padding: 0;
   white-space: nowrap;
-  clip-path: inset(100%);
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
@@ -72,7 +73,7 @@ body {
 }
 
 .color-logo {
-  color: var(--accent-color);
+  color: #2196F3;
   font-weight: 700;
 }
 
@@ -87,7 +88,7 @@ body {
 }
 
 .nav-list .link {
-  color: var(--primary-text-color);
+  color: #212121;
   font-size: 14px;
   line-height: 1.2;
   font-weight: 500;
@@ -114,11 +115,11 @@ body {
 .nav-list .link:hover,
 .nav-list .link:focus,
 .nav-list .link.current {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .nav-contacts .link {
-  color: var(--second-text-color);
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
@@ -130,7 +131,7 @@ body {
 
 .nav-contacts .link:focus,
 .nav-contacts .link:hover {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .link-mail {
@@ -165,7 +166,7 @@ body {
   line-height: 1.4;
   font-weight: 900;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -174,12 +175,12 @@ body {
   display: inline-block;
   min-width: 200px;
   padding: 10px 34px;
-  background: var(--accent-color);
+  background: #2196F3;
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color: #ffffff;
   text-align: center;
   border-radius: 4px;
   border: none;
@@ -216,7 +217,7 @@ body {
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background-color: var(--first-color);
+  background-color: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -225,7 +226,7 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: var(--first-color);
+  background-color: #ffffff;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
@@ -240,7 +241,7 @@ body {
 }
 
 .modalButton:hover {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .send h2 {
@@ -283,6 +284,20 @@ body {
   border-radius: 4px;
   resize: none;
   margin-bottom: 10px;
+}
+
+.form textarea::-moz-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form textarea:-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form textarea::placeholder {
@@ -353,7 +368,7 @@ body {
 .namelink:focus ~ svg,
 .tellink:focus ~ svg,
 .emaillink:focus ~ svg {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .namelink:hover,
@@ -365,7 +380,7 @@ body {
 .emaillink:focus,
 .modalText:focus {
   outline: 0;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
 }
 
 .form .check {
@@ -387,7 +402,7 @@ body {
 
 .iconcheck2 {
   display: inline-block;
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid #212121;
   border-radius: 3px;
   width: 16px;
   height: 15px;
@@ -395,11 +410,11 @@ body {
 }
 
 .checkbox:checked ~ .iconcheck2 {
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   background-image: url(../image/iconcheck.svg);
   background-size: contain;
   background-origin: border-box;
-  border: var(--accent-color);
+  border: #2196F3;
 }
 
 .check .send-check {
@@ -407,11 +422,11 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 
 .check span a {
-  color: var(--accent-color);
+  color: #2196F3;
   text-decoration: underline;
 }
 
@@ -421,12 +436,12 @@ body {
   margin-right: auto;
   width: 200px;
   padding: 10px 55px 10px 54px;
-  background: var(--accent-color);
+  background: #2196F3;
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color: #ffffff;
   text-align: center;
   border-radius: 4px;
   border: none;
@@ -485,7 +500,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: var(--primary-text-color);
+  color: #212121;
   text-transform: uppercase;
   padding-bottom: 10px;
 }
@@ -494,7 +509,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: #757575;
 }
 
 /*we doing*/
@@ -506,7 +521,7 @@ body {
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
-  color: var(--primary-text-color);
+  color: #212121;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
@@ -543,7 +558,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  color: var(--first-color);
+  color: #ffffff;
 }
 
 /*team*/
@@ -574,8 +589,8 @@ body {
 
 .social-item:hover,
 .social-item:focus {
-  background: var(--accent-color);
-  fill: var(--first-color);
+  background: #2196F3;
+  fill: #ffffff;
 }
 
 .ourteam {
@@ -598,7 +613,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 500;
-  color: var(--primary-text-color);
+  color: #212121;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -613,7 +628,7 @@ body {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: #757575;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -643,8 +658,8 @@ body {
 
 .client-item:hover,
 .client-item:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+  border-color: #2196F3;
+  fill: #2196F3;
 }
 
 /*страница portfolio*/
@@ -664,7 +679,7 @@ body {
 .filters button {
   font-family: "Roboto", sans-serif;
   background-color: #F5F4FA;
-  color: var(--primary-text-color);
+  color: #212121;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
@@ -678,8 +693,8 @@ body {
 
 .filters button:hover,
 .filters button:focus {
-  background: var(--accent-color);
-  color: var(--first-color);
+  background: #2196F3;
+  color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -742,7 +757,7 @@ body {
 .overlay p {
   font-size: 18px;
   line-height: 1.6;
-  color: var(--first-color);
+  color: #ffffff;
   letter-spacing: 0.03em;
   padding: 64px 23px;
 }
@@ -771,13 +786,13 @@ body {
   font-size: 18px;
   line-height: 2;
   font-weight: 700px;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 
 .project-item p {
   font-size: 16px;
   line-height: 1.9;
-  color: var(--second-text-color);
+  color: #757575;
 }
 
 /*footer*/
@@ -798,7 +813,7 @@ body {
 
 .footer-title {
   display: block;
-  color: var(--first-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
@@ -826,15 +841,15 @@ body {
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  fill: var(--first-color);
+  fill: #ffffff;
   background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-svg:hover,
 .footer-svg:focus {
-  background: var(--accent-color);
-  fill: var(--first-color);
+  background: #2196F3;
+  fill: #ffffff;
 }
 
 .logo-footer {
@@ -851,13 +866,13 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
-  color: var(--first-color);
+  color: #ffffff;
 }
 
 .footer-link a {
   font-size: 14px;
   line-height: 1.7;
-  color: var(--second-text-color);
+  color: #757575;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -871,7 +886,7 @@ address p {
 
 .footer-link a:hover,
 .footer-link a:focus {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 /*форма в футере*/
@@ -898,10 +913,10 @@ address p {
   position: relative;
   width: 200px;
   height: 50px;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
@@ -912,7 +927,7 @@ address p {
   line-height: 1.9;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: var(--first-color);
+  color: #ffffff;
 }
 
 .iconsend {
@@ -922,11 +937,11 @@ address p {
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  fill: var(--first-color);
+  fill: #ffffff;
 }
 
 .footerForm input:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
 }
 
 .footerForm button:hover {
@@ -934,7 +949,6 @@ address p {
 }
 
 .footerForm input {
-  color: var(--first-color);
+  color: #ffffff;
 }
-
-/*# sourceMappingURL=file:///c:/Users/print/OneDrive/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/GitHomeW/goit-markup-hw-07/css/main.css.map *//*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.css.map */

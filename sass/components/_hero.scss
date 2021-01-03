@@ -16,7 +16,7 @@
   line-height: 1.4;
   font-weight: 900;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color:$first-color;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -25,12 +25,12 @@
   display: inline-block;
   min-width: 200px;
   padding: 10px 34px;
-  background: var(--accent-color);
+  background: $accent-color;
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color: $first-color;
   text-align: center;
   border-radius: 4px;
   border: none;
@@ -67,7 +67,7 @@
   transform: translate(-50%, -50%);
   width: 528px;
   height: 581px;
-  background-color: var(--first-color);
+  background-color: $first-color;
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
       0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -78,7 +78,7 @@
   position: absolute;
   width: 30px;
   height: 30px;
-  background-color: var(--first-color);
+  background-color:$first-color;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
@@ -93,7 +93,7 @@
 }
 
 .modalButton:hover {
-  fill: var(--accent-color)
+  fill:$accent-color
 }
 
 .send h2 {
@@ -217,7 +217,7 @@
 .namelink:focus~svg,
 .tellink:focus~svg,
 .emaillink:focus~svg {
-  fill: var(--accent-color);
+  fill:$accent-color;
 
 }
 
@@ -231,7 +231,7 @@
 .modalText:focus {
 
   outline: 0;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 
@@ -259,7 +259,7 @@
 
 .iconcheck2 {
   display: inline-block;
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid $primary-text-color;
   border-radius: 3px;
   width: 16px;
   height: 15px;
@@ -268,11 +268,11 @@
 }
 
 .checkbox:checked~.iconcheck2 {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
   background-image: url(../image/iconcheck.svg);
   background-size: contain;
   background-origin: border-box;
-  border: var(--accent-color);
+  border: $accent-color;
 
 }
 
@@ -281,12 +281,12 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 
 }
 
 .check span a {
-  color: var(--accent-color);
+  color: $accent-color;
   text-decoration: underline;
 }
 
@@ -296,12 +296,12 @@
   margin-right: auto;
   width: 200px;
   padding: 10px 55px 10px 54px;
-  background: var(--accent-color);
+  background: $accent-color;
   font-size: 16px;
   line-height: 1.9;
   font-weight: 700;
   letter-spacing: 0.06em;
-  color: var(--first-color);
+  color: $first-color;
   text-align: center;
   border-radius: 4px;
   border: none;

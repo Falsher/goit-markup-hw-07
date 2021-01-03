@@ -1,5 +1,29 @@
 {
-  "workbench.iconTheme": "vscode-icons",
+  "liveSassCompile.settings.formats":[
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": "/css"
+    },
+    {
+        "extensionName": ".min.css",
+        "format": "compressed",
+        "savePath": "/css"
+    }
+],
+"liveSassCompile.settings.excludeList": [
+   "**/node_modules/**",
+   ".vscode/**"
+],
+"liveSassCompile.settings.generateMap": true,
+"liveSassCompile.settings.autoprefix": [
+    "> 0.5%",
+    "last 2 versions",
+    "Firefox ESR",
+    "not dead"
+],
+
+  "workbench.iconTheme": "material-icon-theme",
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.formatOnPaste": false,
@@ -47,23 +71,10 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.trailingComma": "all",
   "editor.semanticTokenColorCustomizations": null,
-  "editor.fontLigatures": null,
+  "editor.fontLigatures": null
 
 
-	"liveSassCompile.settings.formats": [
-		{
-			"format": "expanded",
-			"extensionName": ".css",
-			"savePath": "/css"
-		},
-		{
-			"format": "compressed",
-			"extensionName": ".min.css",
-			"savePath": "/css"
-		}
-	],
-	"liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
-	"liveSassCompile.settings.generateMap": true,
-	"liveSassCompile.settings.autoprefix": null,
-	"liveServer.settings.port": 1235
+
+
+
 }

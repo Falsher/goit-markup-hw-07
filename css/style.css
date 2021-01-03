@@ -8,6 +8,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    
 }
 
 a {
@@ -145,7 +147,7 @@ body {
     height: 12px;
     margin-right: 10px;
     fill: currentColor;
-    
+
 }
 
 .link-phone {

@@ -44,7 +44,7 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 700;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   text-transform: uppercase;
   padding-bottom: 10px
 }
@@ -53,5 +53,5 @@
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--second-text-color)
+  color: $second-text-color
 }

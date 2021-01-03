@@ -28,8 +28,8 @@
 
 .social-item:hover,
 .social-item:focus {
-  background: var(--accent-color);
-  fill: var(--first-color)
+  background: $accent-color;
+  fill: $first-color
 }
 
 .ourteam {
@@ -52,7 +52,7 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   font-weight: 500;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -67,7 +67,7 @@
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--second-text-color);
+  color: $second-text-color;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -98,6 +98,6 @@
 
 .client-item:hover,
 .client-item:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color)
+  border-color:$accent-color;
+  fill: $accent-color
 }
