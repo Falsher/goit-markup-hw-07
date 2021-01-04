@@ -41,8 +41,23 @@ body {
   padding-right: 15px;
 }
 
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-right: 93px;
+}
+
+.logo .color-logo {
+  color: #2196F3;
+  font-weight: 700;
+}
+
 /*header*/
-#header {
+.header {
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -72,25 +87,24 @@ body {
   margin-left: auto;
 }
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  margin-right: 93px;
-}
-
-.color-logo {
-  color: #2196F3;
-  font-weight: 700;
-}
-
 .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.link-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.link-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .nav-list .item:nth-child(-n+2) {
@@ -108,10 +122,6 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-contacts .item:first-child {
-  margin-right: 50px;
-}
-
 .nav-list .link.current::after {
   content: "";
   position: absolute;
@@ -123,10 +133,12 @@ body {
   background-color: #188CE8;
 }
 
-.nav-list .link:hover,
-.nav-list .link:focus,
-.nav-list .link.current {
+.nav-list .link:hover, .nav-list .link:focus, .nav-list .link.current {
   color: #2196F3;
+}
+
+.nav-contacts .item:first-child {
+  margin-right: 50px;
 }
 
 .nav-contacts .link {
@@ -145,23 +157,8 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-contacts .link:focus,
-.nav-contacts .link:hover {
+.nav-contacts .link:focus, .nav-contacts .link:hover {
   color: #2196F3;
-}
-
-.link-mail {
-  width: 16px;
-  height: 12px;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.link-phone {
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
 }
 
 /*hero*/
@@ -245,7 +242,7 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.modalButton {
+.modal-button {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -259,13 +256,13 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button:hover {
+  fill: #2196F3;
+}
+
 .modal-vektor {
   width: 11px;
   height: 11px;
-}
-
-.modalButton:hover {
-  fill: #2196F3;
 }
 
 .send h2 {
@@ -284,6 +281,15 @@ body {
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
+}
+
+.send-title {
+  display: block;
+}
+
+.form {
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 .form > label {
@@ -338,15 +344,6 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.send-title {
-  display: block;
-}
-
-.form {
-  padding-right: 40px;
-  padding-left: 40px;
-}
-
 .sendName {
   position: relative;
 }
@@ -383,34 +380,40 @@ body {
   left: 12px;
 }
 
-.namelink ~ svg,
-.tellink ~ svg,
-.emaillink ~ svg {
+.namelink ~ svg {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.namelink,
-.tellink,
-.emaillink,
+.namelink {
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.namelink:focus ~ svg {
+  fill: #2196F3;
+}
+
+.namelink:hover {
+  outline: 0;
+  border: 1px solid #2196F3;
+}
+
+.namelink:focus {
+  outline: 0;
+  border: 1px solid #2196F3;
+}
+
 .modalText {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.namelink:focus ~ svg,
-.tellink:focus ~ svg,
-.emaillink:focus ~ svg {
-  fill: #2196F3;
+.modalText:hover {
+  outline: 0;
+  border: 1px solid #2196F3;
 }
 
-.namelink:hover,
-.tellink:hover,
-.emaillink:hover,
-.modalText:hover,
-.namelink:focus,
-.tellink:focus,
-.emaillink:focus,
 .modalText:focus {
   outline: 0;
   border: 1px solid #2196F3;
@@ -439,6 +442,19 @@ body {
   overflow: hidden;
 }
 
+.check .send-check {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.check span a {
+  color: #2196F3;
+  text-decoration: underline;
+}
+
 .iconcheck2 {
   display: inline-block;
   border: 2px solid #212121;
@@ -454,19 +470,6 @@ body {
   background-size: contain;
   background-origin: border-box;
   border: #2196F3;
-}
-
-.check .send-check {
-  display: inline-block;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.check span a {
-  color: #2196F3;
-  text-decoration: underline;
 }
 
 .buttonSend {
@@ -491,8 +494,7 @@ body {
   cursor: pointer;
 }
 
-.buttonSend:hover,
-.buttonSend:focus {
+.buttonSend:hover, .buttonSend:focus {
   background: #188CE8;
 }
 
