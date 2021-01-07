@@ -1,37 +1,56 @@
 @charset "UTF-8";
+/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto.ttf);
   font-style: normal;
   font-weight: 400;
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* roboto-500 - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto-Medium.ttf);
   font-style: normal;
   font-weight: 500;
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* roboto-700 - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto-Bold.ttf);
   font-style: normal;
   font-weight: 700;
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* roboto-900 - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto-Black.ttf);
   font-style: normal;
   font-weight: 900;
+  src: local(""), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* raleway-regular - latin */
 @font-face {
   font-family: 'Raleway';
-  src: url(../fonts/Raleway-Bold.ttf);
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/raleway-v18-latin-regular.woff2") format("woff2"), url("../fonts/raleway-v18-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
+  src: local(""), url("../fonts/raleway-v18-latin-700.woff2") format("woff2"), url("../fonts/raleway-v18-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 * {
