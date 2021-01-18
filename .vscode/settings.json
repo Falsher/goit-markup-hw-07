@@ -47,7 +47,8 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.trailingComma": "all",
   "editor.semanticTokenColorCustomizations": null,
-  "editor.fontLigatures": null
+  "editor.fontLigatures": null,
+  "liveServer.settings.port": 5501
 
 
 
